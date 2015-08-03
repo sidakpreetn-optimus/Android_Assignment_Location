@@ -113,13 +113,13 @@ class MyAdapter extends FragmentPagerAdapter {
 	public Fragment getItem(int arg0) {
 		Fragment fragment = null;
 		if (arg0 == 0) {
-			fragment = new SearchClass();
+			fragment = new Search();
 		}
 		if (arg0 == 1) {
-			fragment = new LocationClass();
+			fragment = new Locations();
 		}
 		if (arg0 == 2) {
-			fragment = new AccountsClass();
+			fragment = new Accounts();
 		}
 		return fragment;
 	}
